@@ -46,6 +46,12 @@ func Test_Handler_content(t *testing.T) {
 		"_gaq.push(['_setAccount', googleAnalyticsId])",
 		fmt.Sprintf("Copyright © %d YOUR NAME", time.Now().Year()),
 	}
+	missingContent := []string{
+		"404",
+		"/404",
+		"Privacy Policy",
+		"/privacy",
+	}
 
 	// THEN each of the strings should be rendered on the page
 	body := w.Body.String()
@@ -55,6 +61,13 @@ func Test_Handler_content(t *testing.T) {
 			t.Errorf("Expected but not found in the index page for example/ : \"%v\"", expected)
 		}
 	}
+	for c := range missingContent {
+		notExpected := missingContent[c]
+		if strings.Contains(body, notExpected) {
+			t.Errorf("Not expecting %v but found it.", notExpected)
+		}
+	}
+
 	if t.Failed() {
 		t.Logf("body:", body)
 	}

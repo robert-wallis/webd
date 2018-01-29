@@ -4,6 +4,7 @@
 
 ### Go template
 # Binaries for programs and plugins
+webd
 *.exe
 *.exe~
 *.dll

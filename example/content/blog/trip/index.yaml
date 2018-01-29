@@ -1,0 +1,27 @@
+title: Trip
+subtitle: Super Cool Vacation
+dateupdated: 2013-12-16T12:00:00-08:00
+thumbnail: /thumbs/trip.jpg
+layout: page.html
+redirects: ['/trip', '/trip/']
+body:
+  - html: >
+      <h1>Fun Facation</h1>
+      <p>
+        Did you know <code><a href="/trip">/trip</a></code> redirects here, even though this lives at <code>/posts/trip</code>.
+      </p>
+      <p>
+        Some stuff happened, like: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus nibh diam, eu euismod metus tempus vitae. Donec egestas elementum mauris at scelerisque. Donec aliquam tellus eu ligula dignissim, ut gravida mi feugiat. Nunc in tempor nulla. Nulla blandit porta nibh, ac posuere ligula ornare at. Fusce imperdiet blandit ligula sed auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque id tellus non massa laoreet scelerisque. Etiam at mollis elit. Nam gravida odio a ultricies congue. Fusce condimentum ipsum quis lacus facilisis fermentum. Aenean vel vehicula elit. Ut at iaculis mi, non luctus diam. In sed enim fringilla, gravida enim vitae, rutrum ipsum. Donec id ultrices ligula. In mollis convallis risus vel finibus.
+      </p>
+      <p>
+        Curabitur efficitur sapien et lectus sollicitudin, non facilisis ipsum pellentesque. Vestibulum maximus, ipsum ut pharetra volutpat, neque risus iaculis dolor, vitae congue elit augue quis mi. Nam sit amet tellus ac tortor efficitur consequat. Curabitur aliquam sapien id porttitor placerat. Nunc tempor bibendum justo nec finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae tincidunt eros. Nulla facilisi. Vestibulum dui odio, interdum tristique imperdiet in, aliquet non est. Suspendisse vel faucibus turpis, vel semper mi. Vivamus molestie augue magna, ut ornare tellus fringilla a.
+      </p>
+      <p>
+        Pellentesque lobortis euismod mauris, tempus tristique neque semper non. Nunc eget ante vitae libero iaculis euismod. Curabitur vel urna laoreet nisl congue facilisis. Donec purus justo, gravida at tortor ac, finibus vulputate massa. Maecenas placerat eget turpis eget feugiat. Quisque nulla mi, tempor sit amet nunc id, scelerisque cursus purus. Etiam sollicitudin turpis posuere dui sodales lobortis. Phasellus tincidunt velit rhoncus mauris ultrices, quis pulvinar magna elementum. Phasellus volutpat dignissim iaculis. In porttitor massa eget tellus tristique, non volutpat libero facilisis.
+      </p>
+      <p>
+        Vivamus eleifend suscipit nibh, eget dictum nisl dictum non. Donec consectetur at eros ut consectetur. Aenean eget malesuada sem. Etiam sem risus, tempus at vulputate vehicula, venenatis ac metus. In varius lacus elit, eu imperdiet neque feugiat id. Maecenas consequat pulvinar sagittis. Integer et nisl quis odio pharetra molestie. Donec posuere placerat venenatis. Nunc volutpat varius quam eu sodales. Vivamus vel pulvinar sapien, et consequat turpis. Nulla et turpis odio. Nulla facilisi. Nulla a est semper dui vestibulum laoreet. Pellentesque vestibulum placerat maximus.
+      </p>
+      <p>
+        Praesent nec metus ut ex porttitor viverra. Donec ligula quam, porta quis consectetur eget, aliquam vestibulum ipsum. Etiam vel erat augue. Mauris id fermentum metus. Nullam at odio enim. Mauris bibendum lorem in aliquet laoreet. Vestibulum quis placerat tellus, ut lobortis elit. Suspendisse potenti. Proin bibendum ac mauris non viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc eget sagittis mauris.
+      </p>

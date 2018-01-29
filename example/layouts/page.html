@@ -1,0 +1,12 @@
+{{ template "header.html" . }}
+<div id="p-index" class="content">
+	<article>
+		{{ template "map_content.html" .Body }}
+	</article>
+	<div class="grid-row">
+		<div class="grid-12">
+			<div id="disqus_thread"></div>
+		</div>
+	</div>
+</div>
+{{ template "footer.html" . }}

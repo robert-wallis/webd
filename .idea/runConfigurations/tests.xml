@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="tests" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+    <toRun type="GoTestRunConfiguration" name="config" />
+    <toRun type="GoTestRunConfiguration" name="hpath" />
+    <toRun type="GoTestRunConfiguration" name="multisite" />
+    <toRun type="GoTestRunConfiguration" name="page" />
+    <toRun type="GoTestRunConfiguration" name="site" />
+    <method />
+  </configuration>
+</component>

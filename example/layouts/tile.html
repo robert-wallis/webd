@@ -1,0 +1,13 @@
+<div class="project">
+	{{ if .URL }}<a href="{{ .URL }}">{{ end }}
+		<img src="{{ .Thumbnail }}" width="300" alt="{{ .Title }} screenshot" />
+    {{ if .URL }}</a>{{ end }}
+	<h1 class="title">
+        {{ if .URL }}<a href="{{ .URL }}">{{ end }}
+			{{ .Title | html }}
+        {{ if .URL }}</a>{{ end }}
+	</h1>
+	{{ if .SubTitle }}
+		<div class="subtitle">{{ .SubTitle | html }}</div>
+	{{ end }}
+</div>

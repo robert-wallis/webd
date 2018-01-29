@@ -1,0 +1,37 @@
+{{ range . }}
+    {{ if .h1 }}
+        <div class="grid-row">
+            <div class="grid-12">
+                <h1>{{.h1}}</h1>
+            </div>
+        </div>
+    {{ end }}
+    {{ if .h2 }}
+        <div class="grid-row">
+            <div class="grid-12">
+                <h2>{{.h2}}</h2>
+            </div>
+        </div>
+    {{ end }}
+    {{ if .h3 }}
+        <div class="grid-row">
+            <div class="grid-12">
+                <h3>{{.h3}}</h3>
+            </div>
+        </div>
+    {{ end }}
+    {{ if .p }}
+        <div class="grid-row">
+            <div class="grid-12">
+                <p>{{ .p }}</p>
+            </div>
+        </div>
+    {{ end }}
+    {{ if .html }}
+        <div class="grid-row">
+            <div class="grid-12">
+                {{ .html | html }}
+            </div>
+        </div>
+    {{ end }}
+{{ end }}

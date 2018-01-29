@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="webd" type="GoTestRunConfiguration" factoryName="Go Test">
+    <module name="webd" />
+    <working_directory value="$PROJECT_DIR$" />
+    <go_parameters value="-i" />
+    <framework value="gotest" />
+    <kind value="PACKAGE" />
+    <package value="github.com/robert-wallis/webd" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$" />
+    <method />
+  </configuration>
+</component>

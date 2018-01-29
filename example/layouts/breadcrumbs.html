@@ -1,0 +1,12 @@
+{{ $len := sub (len .Breadcrumbs) 1 }}
+{{ if $len }}
+<nav>
+    {{ range $i, $p := .Breadcrumbs }}
+        {{ if (lt $i $len) }}
+            <a href="{{ $p.URL }}">{{ $p.Title }}</a> /
+        {{ else }}
+            {{ $p.Title }}
+        {{ end }}
+    {{ end }}
+</nav>
+{{ end }}

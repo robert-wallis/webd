@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>{{ .Title }}</title>
+	<base href="{{ .URL }}"/>
+	<link rel="canonical" href="{{ .URL }}">
+	<link rel="stylesheet" href="/css/index.css"/>
+</head>
+<body>
+<div id="body">
+<header>
+	<div class="grid-row">
+		<div class="grid-12">
+			<div class="hgroup">
+				<h1>{{ .Title }}</h1>
+				{{ if .SubTitle }}
+				<h2 class="subtitle">{{ .SubTitle }}</h2>
+				{{ end }}
+			</div>
+			{{ template "breadcrumbs.html" . }}
+			<span class="articleDate">
+                <div>
+                    {{ if gt .DateUpdated.Unix 1 }}
+                    {{ $date := .DateUpdated.Format "2006-01-02" }}
+                    Created: <time datetime="{{ $date }}">{{ $date }}</time>
+                    {{ end }}
+                </div>
+            </span>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,18 @@
+title: Mix Body
+subtitle: YAML with HTML and body element tags.
+dateupdated: 2012-07-05T12:00:00-08:00
+thumbnail: /thumbs/mixbody.jpg
+body:
+  - html: >
+      <p class="elevator-pitch">
+        Here's a custom class!
+      </p>
+  - p:
+      Look it's just a p tag somewhere.
+  - h2: A heading.
+  - html:
+      <p>
+        Curabitur efficitur sapien et lectus sollicitudin, non facilisis ipsum pellentesque. Vestibulum maximus, ipsum ut pharetra volutpat, neque risus iaculis dolor, vitae congue elit augue quis mi. Nam sit amet tellus ac tortor efficitur consequat. Curabitur aliquam sapien id porttitor placerat. Nunc tempor bibendum justo nec finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae tincidunt eros. Nulla facilisi. Vestibulum dui odio, interdum tristique imperdiet in, aliquet non est. Suspendisse vel faucibus turpis, vel semper mi. Vivamus molestie augue magna, ut ornare tellus fringilla a.
+      </p>
+
+  - p: Pellentesque lobortis euismod mauris, tempus tristique neque semper non. Nunc eget ante vitae libero iaculis euismod. Curabitur vel urna laoreet nisl congue facilisis. Donec purus justo, gravida at tortor ac, finibus vulputate massa. Maecenas placerat eget turpis eget feugiat. Quisque nulla mi, tempor sit amet nunc id, scelerisque cursus purus. Etiam sollicitudin turpis posuere dui sodales lobortis. Phasellus tincidunt velit rhoncus mauris ultrices, quis pulvinar magna elementum. Phasellus volutpat dignissim iaculis. In porttitor massa eget tellus tristique, non volutpat libero facilisis.

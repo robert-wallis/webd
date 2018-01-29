@@ -1,0 +1,13 @@
+title: Privacy Policy
+listhidden: true
+redirects: ['/privacy.html']
+body:
+ - p: We do not share your personal information with third parties.
+      We store anonymous information about your usage of our apps or site for internal analysis only.
+      We do not, and are not interested in, selling your information to third parties.
+ - html: >
+    <p>
+      This privacy policy is subject to change without notice and was last updated on DATE.
+      If you have any questions feel free to contact me directly here:
+       <a href="mailto:test@example.com">test@example.com</a>.
+    </p>

@@ -1,0 +1,23 @@
+	<div class="grid-row">
+		<div class="grid-4">
+		{{range $index, $page := .}}
+			{{if eq (mod $index 3) 0}}
+                {{ template "tile.html" $page }}
+			{{end}}
+		{{end}}
+		</div>
+		<div class="grid-4">
+		{{range $index, $page := .}}
+			{{if eq (mod $index 3) 1}}
+                {{ template "tile.html" $page }}
+			{{end}}
+		{{end}}
+		</div>
+		<div class="grid-4">
+		{{range $index, $page := .}}
+			{{if eq (mod $index 3) 2}}
+                {{ template "tile.html" $page }}
+			{{end}}
+		{{end}}
+		</div>
+	</div>

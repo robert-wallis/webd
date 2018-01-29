@@ -1,0 +1,3 @@
+title: Hidden Page
+subtitle: shouldn't show up in directory listing
+listhidden: true

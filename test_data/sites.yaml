@@ -1,0 +1,15 @@
+-
+  host: example.com
+  aliases: [www.example.com, other.example.com]
+  email: test@example.com
+  path: ../example
+  bind:
+    http: :80
+    https: :443
+  letsencrypt: true
+-
+  host: files.example.com
+  static: true
+  path: files.example.com
+  bind:
+    http: :80

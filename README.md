@@ -7,7 +7,13 @@ It is served via HTTP or HTTPS using Let's Encrypt with automatic certificate re
 
 # Installation
 
+## Download the executable
+
+The executables are in [the releases](https://github.com/robert-wallis/webd/releases/) section.
+They do not require the go language to be installed.
+
 ## Using `go get`.
+
 If you have the go language installed, run `go get` to download the source code and build the `webd` server.
 
 Once you have a built binary you don't need the go runtime on your prod server, just the webd or webd.exe file and your site templates.

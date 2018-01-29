@@ -17,7 +17,7 @@ import (
 	"path/filepath"
 )
 
-const VERSION = "2019-01-28"
+const VERSION = "2018-01-28"
 
 var _bind = flag.String("bind", ":80", "bind ip and port")
 var _hostname = flag.String("hostname", "example.com", "outside hostname for site")
